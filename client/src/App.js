@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import Write from "./pages/Write";
 import Home from "./pages/Home";
 import SinglePost from "./pages/SinglePost";
-
+import "./style.scss";
 import {
   createBrowserRouter,
   RouterProvider,
