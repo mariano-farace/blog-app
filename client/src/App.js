@@ -1,4 +1,3 @@
-import "./App.css";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Write from "./pages/Write";
@@ -48,7 +47,7 @@ const router = createBrowserRouter([
     element: <Register />,
   },
   {
-    path: "/register",
+    path: "/login",
     element: <Login />,
   },
 ]);
@@ -56,7 +55,9 @@ const router = createBrowserRouter([
 function App() {
   return (
     <div className="App">
-      <RouterProvider router={router} />
+      <div className="container">
+        <RouterProvider router={router} />
+      </div>
     </div>
   );
 }
