@@ -2,6 +2,7 @@ import React from "react";
 import Edit from "../img/edit.png";
 import Delete from "../img/delete.png";
 import { Link } from "react-router-dom";
+import Menu from "../components/Menu";
 
 const SinglePost = () => {
   return (
@@ -92,7 +93,7 @@ const SinglePost = () => {
           eligendi, aperiam quae quod perspiciatis, iusto a.
         </p>
       </div>
-      <div className="menu">menu</div>
+      <Menu />
     </div>
   );
 };
