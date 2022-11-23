@@ -4,16 +4,9 @@ import Write from "./pages/Write";
 import Home from "./pages/Home";
 import SinglePost from "./pages/SinglePost";
 import "./style.scss";
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Outlet,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-
-//TODO change typography
 
 const Layout = () => {
   return (
