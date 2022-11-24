@@ -8,6 +8,6 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  rules: { "prettier/prettier": "error" },
+  rules: { "prettier/prettier": "error", "import/extensions": "never" },
   plugins: ["prettier"],
 };
